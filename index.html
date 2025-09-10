@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__inner container">
+                <a href="/" class="header__logo">
+                    <img src="./icons/logo.png" alt="logo"
+                        class="header__logo-image" width="64" height="64"
+                        loading="lazy">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#about" class="header__menu-link">About</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#skills"
+                                class="header__menu-link">Skills</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#portfolio" class="header__menu-link">Portfolio</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="/" class="header__menu-link">Word
+                                Experience</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#contact" class="header__menu-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="theme-button">
+                    <button id="theme-toggle"></button>
+                </div>
+            </header>
+            <main class="content">
+                
+                <section class="section__hero container">
+
+                    <div class="hero__inner">
+                        <div class="hero__body">
+                            <div class="hero__title" id="hero__title"></div>
+                            <a href="https://wa.me/+994556975556" target="_blank">
+                                <button class="hero__button button">Let's
+                                talk!</button>
+                            </a>
+                        </div>
+                        <div class="hero__image">
+                            <img src="./images/iam.jpg" alt="myphoto"
+                                width="500" height="auto" />
+                        </div>
+                    </div>
+                </section>
+                <section class="section__about container" id="about">
+                    <div class="about__title">
+                        <h2 class="title">About me</h2>
+                    </div>
+                    <div class="section__description">
+                        <p>Frontend-developer from Baku (Azerbaijan) seeking
+                            self-development and professional growth.</p>
+                        <p>Responsible and motivated developer ready to apply
+                            education in theworkplace.</p>
+                        <p>Offers excellent technical abilities with software
+                            and applications, ability to handle challenging
+                            work, and excellent time management skills.</p>
+                    </div>
+                </section>
+                <section class="section__skills container" id="skills">
+                    <div class="skill__title">
+                        <h2 class="title">My skills</h2>
+                    </div>
+                    <div class="skill__list" ">
+                        <div class="skill__item"><p>HTML (HTML5)</p></div>
+                        <div class="skill__item"><p>CSS (CSS3), SASS (SCSS),
+                                Bootstrap, Animations</p></div>
+                        <div class="skill__item"><p>JavaScript (ES6+, OOP),
+                                jQuery, TypeScript</p></div>
+                        <div class="skill__item"><p>Responsive and adaptive web
+                                design</p></div>
+                        <div class="skill__item"><p>React</p></div>
+                        <div class="skill__item"><p>Jest, Framework Mocha,
+                                Library Chai</p></div>
+                        <div class="skill__item"><p>REST API,
+                                WebSockets</p></div>
+                        <div class="skill__item"><p>BEM methodology</p></div>
+                        <div class="skill__item"><p>Git (GitHub)</p></div>
+                        <div class="skill__item"><p>Figma, Adobe Photoshop,
+                                Photopea</p></div>
+                        <div class="skill__item"><p>Waterfall, V-Model, Agile,
+                                XP (Extreme Programming), Scrum</p></div>
+                        <div class="skill__item"><p>English level - B1</p></div>
+                        <div class="skill__item"><p>Russian level - C2</p></div>
+                    </div>
+                </section>
+                <section class="section__portfolio container" id="portfolio">
+                    <div class="skill__title">
+                        <h2 class="title">My portfolio</h2>
+                    </div>
+                    <div class="portfolio">
+                        <div class="card" data-modal="images/screencapture-dimxaus.jpg">
+                            <img src="./images/dimxaus.jpg" alt="Фото 1">
+                            <div class="card-content">
+                                <h3>Dimxaus - Tobacco products sales website</h3>
+                            </div>
+                        </div>
+                        <div class="card" data-modal="images/screencapture-aziza.jpg">
+                            <img src="./images/aziza.jpg" alt="Фото 2">
+                            <div class="card-content">
+                                <h3>Portfolio project : Website clone(diploma work)</h3>
+                            </div>
+                        </div>
+                        <div class="card" data-modal="images/screencapture-crosfit.jpg">
+                            <img src="./images/crossfit.jpg" alt="Фото 2">
+                            <div class="card-content">
+                                <h3>Training project : Recreated Website(portfolio)</h3>
+                            </div>
+                        </div>
+                        <div class="card" data-modal="images/screencapture-rabitabank.jpg">
+                            <img src="./images/rabitabank.jpg" alt="Фото 2">
+                            <div class="card-content">
+                                <h3>Portfolio project : Website clone(diploma work)</h3>
+                            </div>
+                        </div>
+                        <div class="card" data-modal="images/screencapture-positivus.jpg">
+                            <img src="./images/positivus.jpg" alt="Фото 2">
+                            <div class="card-content">
+                                <h3>Training project : Recreated Website(portfolio)</h3>
+                            </div>
+                        </div>
+                        <div class="card" data-modal="images/screencapture-medical.jpg">
+                            <img src="./images/medical.jpg" alt="Фото 2">
+                            <div class="card-content">
+                                <h3>Educational project : Website replica for training</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal">
+                        <img id="modalImg" src="" alt="Фото">
+                    </div>
+                </section>
+            </main>
+            <footer id="contact">
+                <div class="footer container">
+                    <div class="footer-left">
+                        <h3> Wanna ask me something or just say hi?</h3>
+                        <h5>You can contact me mon-fri from 8 am to 8 pm (gmt).</h5>
+                    </div>
+                    <div>
+                        <div class="footer-right">
+                            <a href="https://t.me/perviz3733" target="_blank"><i class="fab fa-telegram"></i></a>
+                            <a href="https://wa.me/+994556975556" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/parviz-samadli-aa1956255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/parvizzsamadli" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="mailto:parvizzsamadli@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        <div class="copyright">
+                            <p>Copyright © 2025 Samadofff.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+            <script src="./script.js"></script>
+        </body>
+    </html>
