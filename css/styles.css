@@ -183,7 +183,6 @@ body {
   left: calc(100% - 37px);
 }
 
-
 .hero__inner {
   margin-bottom: var(--container-padding-y);
   display: flex;
@@ -191,6 +190,7 @@ body {
   gap: 30px;
   
 }
+
 .hero__inner img {
   opacity: 0.9;
   box-shadow: 3px 3px 10px rgba(0 ,0 , 0, 0.7);
@@ -364,7 +364,7 @@ body {
   transition: box-shadow 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
   transition: all 0.8s ease-out, background-color 0.3s ease,
-    border-color 0.3s ease;
+  border-color 0.3s ease;
 }
 
 .card:hover {
@@ -375,8 +375,9 @@ body {
 }
 
 .card img {
-  height: 100%;
-  width: auto;
+  width: 50%;
+  height: auto;
+  background-attachment: fixed;
   transition: transform 0.3s ease;
 }
 
@@ -507,6 +508,10 @@ footer .footer-right a:hover {
   .card {
     flex-direction: column;
     height: auto;
+  }
+  
+  .card img {
+    width: 100%;
   }
 }
 
